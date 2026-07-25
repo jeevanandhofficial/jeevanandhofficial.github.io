@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jeevanandh Sathish Kumar — AI/ML Engineer</title>
+<meta name="description" content="AI/ML Engineer building production, cloud-native healthcare AI systems — multi-agent orchestration, Vertex AI, Google ADK, BigQuery.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner wrap" style="padding-left:0;padding-right:0;">
+    <a href="#top" class="nav-mark">jeeva<span>_</span>nandh</a>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certs</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">AI/ML Engineer · Chennai, India</span>
+      <h1>I build multi-agent clinical AI systems that <em>physicians actually trust</em> with real patient data.</h1>
+      <p class="lede">3+ years designing and shipping production, cloud-native healthcare AI on Google Cloud — from agent orchestration and LLM tool-calling down to the BigQuery query that has to be right the first time.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="assets/Jeevanandh_Sathish_Kumar_Resume.docx" download>Download Résumé</a>
+        <a class="btn btn-secondary" href="https://github.com/jeevanandhofficial" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="btn btn-secondary" href="https://www.linkedin.com/in/jeeva-nandh-52213a1ba/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><div class="num">3+</div><div class="label">Years in production AI</div></div>
+        <div class="hero-stat"><div class="num">1</div><div class="label">Live clinical platform</div></div>
+        <div class="hero-stat"><div class="num">7</div><div class="label">Interns mentored</div></div>
+        <div class="hero-stat"><div class="num">2</div><div class="label">GCP credentials</div></div>
+      </div>
+    </div>
+
+    <div class="signal-box">
+      <span class="chip">SYS.TRACE — LIVE</span>
+      <svg id="signal-svg" viewBox="0 0 380 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a vitals waveform transforming into a connected multi-agent graph">
+        <path class="trace" id="tracePath" d="M10,150 L60,150 L75,100 L90,210 L105,60 L120,150 L150,150 L160,130 L170,170 L180,150 L 210,150" />
+        <line class="edge" x1="210" y1="150" x2="255" y2="90" />
+        <line class="edge" x1="210" y1="150" x2="255" y2="150" />
+        <line class="edge" x1="210" y1="150" x2="255" y2="210" />
+        <line class="edge" x1="255" y1="90" x2="325" y2="60" />
+        <line class="edge" x1="255" y1="90" x2="325" y2="110" />
+        <line class="edge" x1="255" y1="150" x2="325" y2="150" />
+        <line class="edge" x1="255" y1="210" x2="325" y2="190" />
+        <line class="edge" x1="255" y1="210" x2="325" y2="240" />
+
+        <circle class="node node-core" cx="210" cy="150" r="7" />
+        <circle class="node" cx="255" cy="90" r="6" />
+        <circle class="node" cx="255" cy="150" r="6" />
+        <circle class="node" cx="255" cy="210" r="6" />
+        <circle class="node" cx="325" cy="60" r="4.5" />
+        <circle class="node" cx="325" cy="110" r="4.5" />
+        <circle class="node" cx="325" cy="150" r="4.5" />
+        <circle class="node" cx="325" cy="190" r="4.5" />
+        <circle class="node" cx="325" cy="240" r="4.5" />
+
+        <text class="tag" x="228" y="70">TREATMENT</text>
+        <text class="tag" x="228" y="180">LAB</text>
+        <text class="tag" x="215" y="235">HOSPITALIZATION</text>
+        <text class="tag" x="150" y="270">REASONING AGENT ORCHESTRATOR</text>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-photo">
+      <img src="assets/profile.jpg" alt="Portrait of Jeevanandh Sathish Kumar" loading="lazy">
+    </div>
+    <div>
+      <div class="section-head" style="margin-bottom:22px;">
+        <h2>About</h2>
+        <span class="section-num">/ 01</span>
+      </div>
+      <div class="about-copy">
+        <p>I'm an AI/ML Engineer at KANINI Software Solutions, where I've spent the last three years moving from trainee to owning production systems end to end. My main focus is the AI Neph Assistant — a GCP-hosted, multi-agent clinical platform built on Google's Agent Development Kit that helps nephrologists review dialysis patient charts faster and more safely.</p>
+        <p>I'm comfortable across the whole stack a system like this needs: orchestrating specialist agents and their tool-calling logic, writing the Terraform and GitLab CI that gets it deployed reliably, and getting the BigQuery SQL underneath exactly right — because in healthcare, "close enough" isn't a query plan.</p>
+        <p>Outside of clinical AI, I spend time applying the same data discipline to markets — building mean-reversion swing-trading models on NSE stocks using RSI and Bollinger Band signals, backtested through the DHAN API.</p>
+      </div>
+      <div class="vitals-row">
+        <div class="cell"><div class="v">GCP</div><div class="l">Vertex AI · ADK · BigQuery</div></div>
+        <div class="cell"><div class="v">Multi-Agent</div><div class="l">Orchestration & tool-calling</div></div>
+        <div class="cell"><div class="v">Terraform</div><div class="l">CI/CD & IaC</div></div>
+        <div class="cell"><div class="v">Python</div><div class="l">FastAPI · SQL · async</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Experience</h2>
+      <span class="section-num">/ 02</span>
+    </div>
+    <div class="timeline">
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>KANINI Software Solutions <span class="entry-role">— AI/ML Engineer, Junior Associate</span></h3>
+          <span class="entry-date">NOV 2024 — PRESENT</span>
+        </div>
+        <ul>
+          <li>Architected and shipped a production multi-agent clinical AI platform on Google ADK, orchestrating dedicated Treatment, Lab, Hospitalization, and Reasoning sub-agents on GKE.</li>
+          <li>Built a custom PostgreSQL-backed session service extending ADK's <code>BaseSessionService</code>, adding audit-trail fields to meet clinical traceability requirements.</li>
+          <li>Integrated Vertex AI Memory Bank to persist physician preferences across sessions, and added keyword-based data prefetching to cut redundant tool calls and latency.</li>
+          <li>Designed a deterministic pre-computation module that calculates clinical treatment categories before handoff to the reasoning agent — eliminating a recurring class of silent LLM reasoning failures.</li>
+          <li>Refactored core BigQuery lab-data queries from name-based matching to precise OID-based lab test ID matching, improving retrieval accuracy and long-term maintainability.</li>
+          <li>Redesigned patient-lookup queries around a two-step MPI-to-PATIENT_ID resolution pattern, enabling partition pruning and materially cutting query latency.</li>
+          <li>Diagnosed and resolved a chain of Vertex AI Reasoning Engine deployment failures, restoring CI/CD reliability.</li>
+          <li>Authored an internal proposal to migrate from direct Vertex AI Gemini calls to a centralized LLM API gateway, improving governance and cost visibility.</li>
+          <li>Mentored 7 interns across Data Engineering, Generative AI, Google Cloud, and full-stack AI development.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>KANINI Software Solutions <span class="entry-role">— Trainee Associate</span></h3>
+          <span class="entry-date">NOV 2023 — NOV 2024</span>
+        </div>
+        <ul>
+          <li>Built a production computer vision system for dialysis catheter monitoring using Gemini AI, achieving 95% detection accuracy with automated, HIPAA-compliant alerting.</li>
+          <li>Developed an ambient clinical documentation pipeline combining AssemblyAI transcription with Gemini-based speaker diarization, cutting physician documentation time by 75%.</li>
+          <li>Built FastAPI transcription services with webhook support, GCS storage, and PostgreSQL session tracking; packaged a shared Angular component library to GCP Artifact Registry.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Core Skills</h2>
+      <span class="section-num">/ 03</span>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-panel">
+        <h4>Cloud & AI Platforms</h4>
+        <div class="chip-row">
+          <span class="chip">Google Cloud Platform</span>
+          <span class="chip">Vertex AI</span>
+          <span class="chip">Reasoning Engine</span>
+          <span class="chip">Memory Bank</span>
+          <span class="chip">Google ADK</span>
+          <span class="chip">Gemini</span>
+          <span class="chip">LiteLLM</span>
+        </div>
+      </div>
+      <div class="skill-panel">
+        <h4>Agentic & Generative AI</h4>
+        <div class="chip-row">
+          <span class="chip">Multi-Agent Orchestration</span>
+          <span class="chip">RAG</span>
+          <span class="chip">Tool-Calling</span>
+          <span class="chip">LangGraph</span>
+          <span class="chip">CrewAI</span>
+          <span class="chip">Prompt Engineering</span>
+        </div>
+      </div>
+      <div class="skill-panel">
+        <h4>Data Engineering</h4>
+        <div class="chip-row">
+          <span class="chip">BigQuery</span>
+          <span class="chip">Query Optimization</span>
+          <span class="chip">Partition Pruning</span>
+          <span class="chip">PySpark</span>
+          <span class="chip">ETL</span>
+          <span class="chip">PostgreSQL</span>
+        </div>
+      </div>
+      <div class="skill-panel">
+        <h4>Infrastructure & DevOps</h4>
+        <div class="chip-row">
+          <span class="chip">Terraform</span>
+          <span class="chip">GitLab CI/CD</span>
+          <span class="chip">Docker</span>
+          <span class="chip">Kubernetes (GKE)</span>
+          <span class="chip">IAM</span>
+          <span class="chip">Cloud SQL</span>
+        </div>
+      </div>
+      <div class="skill-panel">
+        <h4>Languages & Frameworks</h4>
+        <div class="chip-row">
+          <span class="chip">Python</span>
+          <span class="chip">FastAPI</span>
+          <span class="chip">React</span>
+          <span class="chip">SQL</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Featured Work</h2>
+      <span class="section-num">/ 04</span>
+    </div>
+    <div class="projects-grid">
+
+      <div class="card">
+        <span class="tag tag-prod">Production System</span>
+        <h3>AI Neph Assistant</h3>
+        <p>A multi-agent clinical AI platform built on Google ADK that orchestrates Treatment, Lab, Hospitalization, and Reasoning agents so nephrologists can review dialysis patient charts faster — with a deterministic pre-computation layer that keeps the reasoning agent from making silent mistakes on data-heavy queries.</p>
+        <div class="stack">GCP · Vertex AI · ADK · BigQuery · GKE · Terraform</div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-prod">Production System</span>
+        <h3>Ambient Clinical Documentation</h3>
+        <p>An auto-scribe pipeline combining AssemblyAI transcription with Gemini-based speaker diarization to turn physician-patient conversations directly into structured clinical notes — cutting documentation time by 75%.</p>
+        <div class="stack">FastAPI · AssemblyAI · Gemini · GCS · PostgreSQL</div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-prod">Production System</span>
+        <h3>Catheter Monitoring (Computer Vision)</h3>
+        <p>A computer vision system using Gemini AI to monitor dialysis catheter placement in real time, reaching 95% detection accuracy with automated, HIPAA-compliant alerting for clinical staff.</p>
+        <div class="stack">Gemini · Computer Vision · Automated Alerting</div>
+      </div>
+
+      <div class="card">
+        <span class="tag tag-personal">Personal Project</span>
+        <h3>NSE Swing-Trading Scanner</h3>
+        <p>A mean-reversion strategy scanner for NSE/BSE stocks combining RSI and Bollinger Band signals, tuned for 1–2 week holding periods and backtested across Nifty index universes via the DHAN API.</p>
+        <div class="stack">Python · DHAN API · RSI · Bollinger Bands · Backtesting</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Certifications</h2>
+      <span class="section-num">/ 05</span>
+    </div>
+    <div class="cert-list">
+      <div class="cert">
+        <div class="cert-dot pending"></div>
+        <div>
+          <h4>Google Cloud Professional Machine Learning Engineer</h4>
+          <div class="meta">In Progress</div>
+        </div>
+      </div>
+      <div class="cert">
+        <div class="cert-dot"></div>
+        <div>
+          <h4>Google — Generative AI Leader Certification</h4>
+          <div class="meta">Issued Feb 2026 · Expires Feb 2029 · ID a02f0928e74d433bb35122db72755c3b</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-section" id="contact">
+  <div class="wrap contact-grid">
+    <div class="contact-copy">
+      <h2>Let's build something that has to work.</h2>
+      <p>Open to AI/ML engineering roles and collaborations — especially where reliability and real-world data actually matter.</p>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:jeevanandhofficial@gmail.com"><span class="k">Email</span> jeevanandhofficial@gmail.com</a>
+      <a href="tel:+918248360541"><span class="k">Phone</span> +91 82483 60541</a>
+      <a href="https://www.linkedin.com/in/jeeva-nandh-52213a1ba/" target="_blank" rel="noopener"><span class="k">LinkedIn</span> /in/jeeva-nandh-52213a1ba</a>
+      <a href="https://github.com/jeevanandhofficial" target="_blank" rel="noopener"><span class="k">GitHub</span> /jeevanandhofficial</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Built &amp; maintained by Jeevanandh Sathish Kumar — Chennai, India
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
