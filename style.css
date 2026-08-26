@@ -594,6 +594,22 @@ nav {
 .cert h4 { font-size: 1rem; margin-bottom: 4px; }
 .cert .meta { font-family: var(--font-mono); font-size: 12px; color: var(--text-faint); }
 
+.cert-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: var(--teal);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.cert-link:hover, .cert-link:focus-visible {
+  color: var(--amber);
+  border-bottom-color: var(--amber);
+}
+
 /* ---------------- CONTACT / FOOTER ---------------- */
 
 .contact-section { border-bottom: none; padding-bottom: 60px; }
